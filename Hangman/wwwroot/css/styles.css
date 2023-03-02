@@ -1,0 +1,32 @@
+body {
+  margin: 2rem;
+  padding-top: 8rem;
+  background-color: #222;
+  color: #bbb;
+}
+
+header, footer {
+  position:absolute;
+  height: 6rem;
+  left: 0;
+  width:100%;
+  color:#CCC;
+  background:#333;
+  padding:8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  top: 0;
+}
+
+#puzzle-area {
+  background-color: #ffffff44;
+  margin-top: 2rem;
+}
+
+footer {
+  bottom: 0;
+}
