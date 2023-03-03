@@ -25,6 +25,9 @@ header {
 #puzzle-area {
   background-color: #ffffff44;
   margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2rem;
 }
 
 footer {

@@ -12,16 +12,12 @@ namespace Hangman.Models
       "I have a brass waterbed",
     };
 
-
-
     public PuzzleString()
     {
       Random rand = new Random();
-      int puzzleIndex  = rand.Next(0, puzzles.Length - 1);
+      int puzzleIndex  = rand.Next(0, puzzles.Length);
       Solution = puzzles[puzzleIndex];
     }
-
-
 
     public List<int> CheckLetter(char letter)
     {
@@ -33,7 +29,6 @@ namespace Hangman.Models
         {
           result.Add(i);
         }
-
       }
       return result;
       
